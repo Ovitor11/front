@@ -1,7 +1,5 @@
 # Curso-Frontend
 
-# Curso-frontend
-
 # GIT
 
 ## Conceitos de versionamento
