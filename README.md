@@ -34,3 +34,11 @@ Informação de alteração
 - git push (enviar alterações para o repositório)
 ## GitFlow
 -fluxo do git
+
+### Branchs
+ São ramificações / versões paralelas
+
+ - main / master
+ - Develop
+ - DOD Definition of Done: critérios de aceite
+ - versionamento 0.1.10
