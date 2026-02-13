@@ -39,6 +39,7 @@ h3 {
     font-size: 1.8rem;
     color: #254159;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 h4 {
     font-size: 1.6rem;
@@ -105,4 +106,7 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+.cog-branding__powered {
+    visibility: hidden !important;
 }
