@@ -1,0 +1,41 @@
+.exercicio-tabela tr, tr:nth-child(odd) {
+    background-color: white;
+}
+.exercicio-tabela tr:nth-child(odd) {
+    background-color: white;
+}
+.exercicio-tabela tr:nth-child(2) {
+    background-color: white;
+}
+.exercicio-tabela th {
+    background-color: rgb(17, 119, 150);
+}
+.exercicio-tabela  {
+    border-collapse: collapse;
+}
+.exercicio-tabela table, tr, td ,th {
+padding: 15px;
+}
+tr:last-child  td {
+    font-weight: 900;
+}
+tfoot tr:last-child  td {
+    font-weight: 900;
+    background-color: #1f2923;
+    color: #f9fafb;
+}
+tr:first-child td {
+    font-weight: 900;
+}
+tbody tr td:first-child{
+    font-weight: 900;
+    background-color: #374151;
+    color: #f9fafb;
+}
+.div-p p {
+    color: white;
+    margin-top: 0px;
+}
+.div-p h1 {
+    margin-bottom: 4px;
+}

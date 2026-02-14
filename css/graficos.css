@@ -1,0 +1,127 @@
+body {
+background-color: #310f0f;
+}
+.FLUIDO {
+    width: 100%;
+}
+/* CIRCULO */
+#grafico-01 {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#grafico-01 img {
+  width: 150%;
+}
+/* TRIANGULO */
+#grafico-02 {
+  background: transparent;
+  border-style: solid;
+  border-width: 60px 0 60px 120px;
+  border-color: transparent transparent transparent blue;
+  width: 60px;
+  filter: drop-shadow(15px 8px 10px #333);
+}
+/* IMAGEM VETORIAL */
+#imagem-vetorial {
+  width: 200px;
+}
+div {
+  margin: 40px auto;
+}
+/* WIDTH E HEIGHT IGUAIS COM SCROLL*/
+#grafico-002 {
+  background-color: brown;
+  width: 400px;
+  height: 400px;
+  padding: 4px;
+  overflow: scroll;
+}
+/* WIDTH E HEIGHT RESPONSIVO, ADAPTANDO A LARGURA E ALTURA. */
+#grafico-003 {
+  background-color: rgb(56, 165, 42);
+  padding: 3px;
+  width: auto;
+  height: auto;
+}
+/* filtros */
+.filtro {
+  filter: grayscale(100%); /* filtro cinza na img */
+  filter: blur(0px); /* desfocar */
+  filter: invert(0%); /* inversão de cores */
+  filter: brightness(200%); /* |BRILHO| obs: 100% = normal */
+  filter: opacity(100%); /* aplicar transparência a um elemento (imagens, divs, etc.) */
+  filter: saturate(0%); /* aumentar ou diminuir a intensidade das cores (saturação) de um elemento */
+  filter: sepia(100%); /* aplicar um tom amarronzado e quente às imagens. */
+}
+.filtro:hover {
+  filter: grayscale(0%); /* escala de cinza */
+}
+#filtros {
+    width: 200px;
+    filter: drop-shadow(8px 8px 10px #333); /* aplicar sombras projetadas que seguem o contorno real de elementos, incluindo imagens PNG com transparência e formas complexas */
+}
+/* colunas */
+.colunas {
+    display: flex;
+    justify-content: center;
+}
+.coluna {
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #333;
+    background-color: aliceblue;
+    
+}
+.coluna-1 {
+    height: 280px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+.coluna-1 iframe {
+    width: 100%;
+    height: 100%;
+}
+.coluna-3 {
+    height: 280px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    
+}
+.coluna-3 iframe {
+    width: 100%;
+    height: 100%;
+}
+.coluna-4 {
+width: 20%;
+}
+/* mobile first */
+
+/* Tablet */
+@media (max-width: 768px) {
+
+nav {
+    width: 30%;
+}
+
+article {
+    width: 70%;
+
+}
+}
+/* Smartphone */
+@media (max-width: 425px) {
+    
+    div,
+    .grafico,
+    .coluna {
+        width: 100%;
+    }
+
+}

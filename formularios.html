@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/text.css">
+    <link rel="stylesheet" type="text/css" href="./css/text2.css">
+
+</head>
+
+<body>
+    <header>
+        <h2 class="titulo-site">💻FORMULARIO💻</h2>
+    </header>
+
+    <main class="layout">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+            <li><a href="./layout.html">Estilização</a></li>
+            <li><a href="./listas-tabelas.html">Estrutura</a></li>
+            <li><a href="./formularios.html">Contato</a></li>
+            <li><a href="./Exercicio-tabela.html">Exemplos</a></li>
+        </ul>
+        </nav>
+
+        <article>
+            <h1> FORMULARIO</h1>
+
+            <div class="formulario">
+                <form method="POST">
+                    <p>💻NOME💻</p>
+                    <div>
+                        <label>
+                            <input type="name" text="nome" placeholder="Digite Seu Nome">
+                        </label>
+                    </div>
+                    <P>💻E-MAIL💻</P>
+                    <div>
+                        <label>
+                            <input type="email" text="email" placeholder="Digite Seu E-MAIL"></label>
+                    </div>
+                    <P>💻MENSAGEM💻</P>
+                    <div>
+
+                        <label>
+                            <textarea type="Mensagem" text="Mensagem" placeholder=" Digite Sua Mensagem" rows="5"
+                                cols="30"></textarea>
+                        </label>
+                    </div>
+                    <P>💻Qual Sua Linguagem Favorita?💻</P>
+                    <div class="opcoes">
+
+                        <label>
+                            HTML<input type="radio" name="linguagens" value="">
+                        </label>
+                        <label>
+                            CSS<input type="radio" name="linguagens" value="CSS">
+                        </label>
+                        JS<input type="radio" name="linguagens" value="JS">
+                        </label>
+                    </div>
+                    <p>💻QUAIS LINGUAGENS VOCÊ PRETENDE FICAR MUITO BOM?💻</p>
+                    <div class="opcoes">
+                        <label>HTML<input type="checkbox" value=""></label>
+                        <label>CSS<input type="checkbox" value=""></label>
+                        <label>JS<input type="checkbox" value=""></label>
+                        <label>PYTHON<input type="checkbox" value=""></label>
+                        <label>PHP<input type="checkbox" value=""></label>
+                    </div>
+                    <div id="enviar">
+                        <label><input type="submit" value="Enviar"></label>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </main>
+    <section></section>
+    <footer>
+        <p>DESENVOLVIDO POR VITOR</p>
+    </footer>
+</body>
+
+</html>
