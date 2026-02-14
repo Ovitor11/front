@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html{
    font-size: 62.5%; 
 }
@@ -6,24 +9,30 @@ body {
  font-family: "Roboto", sans-serif;
 }
 .main-container {
-    width: 100vw;
-    display: block;
+    width: 100%;
     margin: 0 auto;
 }
 .container {
     padding: 20px;
     width: 100%;
     margin: 0 auto;
-    display: block;
-    float: left;
+    
+}
+.container img {
+     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 header {
-background-color: #fff;
-display: block;
-float: left;
+background-color: #325472;
 width: 100%;
 padding: 20px;
 border-bottom: 1px solid #254159;
+}
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
     font-size: 2.4rem;
@@ -68,16 +77,13 @@ ol li {
 }
 section {
  font-size: 1.5rem; /* equivalente a 15px */
- width: 100%;
  padding: 20px;
- display: block;
- float: left;
+ display: flex;
  background-color: #ffffff;
 }
 section nav {
-display: block;
-float: left;
  width: 30%;
+ padding-left: 30px;
 }
 nav li {
     margin: 5px 20px 5px 0;
@@ -94,7 +100,7 @@ nav a {
 nav a:hover {
     color: #385874;
 }
-section article {
+article {
 width: 70%;
 display: block;
 float: left;
@@ -130,7 +136,66 @@ footer small {
 .cog-form__content--minimal {
     background-color: #7c93a8 !important;
 }
+#tenho-interesse {
+  display: flex;
+  justify-content: center;
+
+}
+
 #tenho-interesse .cog-heading , .cog-label {
     color: #254159 !important;
 
 }
+@Media (min-width: 481px) and (max-width: 1024px){
+
+section,
+    img,
+    section nav,
+    section article {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+        display: block;
+    }
+    section nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin: 0;
+        padding: 0;
+    }
+    section nav li {
+        margin: 1rem;
+        padding: 30px;
+    }
+
+}
+@Media (max-width: 480px) {
+    section,
+    img,
+    section nav,
+    section article {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+        display: block;
+    }
+    section nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin: 1;
+        padding: 0;
+    }
+    section nav li {
+        margin: 1px;
+        padding: px;
+    }
+}
+ /*  * {
+  outline: 1px solid red;
+}   */
